@@ -22,9 +22,9 @@ namespace ZoneWiFi
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //OAuthWebSecurity.RegisterFacebookClient(
-            //    appId: "",
-            //    appSecret: "");
+            OAuthWebSecurity.RegisterFacebookClient(
+                appId: "273036986422600",
+                appSecret: "cd73e27cca40f08d4a0909c690b6bbc0");
 
             //OAuthWebSecurity.RegisterGoogleClient();
         }
