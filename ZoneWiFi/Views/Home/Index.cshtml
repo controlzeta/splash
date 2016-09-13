@@ -7,17 +7,17 @@
         <div id="ads" class="col-md-6 hidden-sm hidden-xs">
             @Html.Partial("~/Views/Shared/_Promociones.cshtml")
         </div>
-        <div id="login" class="col-md-6">
+        <div id="login" class="col-md-6 col-sm-12 col-xs-12" >
             <div class="inner">
                 <div class="col-md-2"></div>
-                <div class="col-md-8">
+                <div class="col-md-8 col-xs-12" style="padding:10px;">
                     <span class="icon major fa-wifi"></span>
                     <h1>
                         Bienvenido a <strong>Walmart</strong>, Te invitamos
                         conectarte gratuitamente a nuestro <a href="#">WIFI</a>.
                     </h1>
                     <img src="images/att.png" style="width:30%; padding-top:10px;">
-                    <div class="row">
+                    <div class="row" style="padding:10px;">
                         <div class="col-md-12" style="padding:10px;"><input placeholder="Escribe tu nombre:" class="form-control"></div>
                         <div class="col-md-12" style="padding-bottom:10px;">
                             <div class="col-md-6">
@@ -31,7 +31,7 @@
                         </div>
                         <div class="col-md-12">
                             <div class="row">
-                                <div class="col-md-6 col-sm-12" style="padding:10px;">
+                                <div class="col-md-6 col-sm-12" style="padding:12px;">
                                     <select id="edad" class="form-control">
                                         <option value="0">Edad</option>
                                         <option value="13">13</option>
@@ -45,7 +45,9 @@
                                         <option value="21">21</option>
                                     </select>
                                 </div>
-                                <div class="col-md-6 col-sm-12" style="padding:12px;"><input placeholder="Código Postal:" class="form-control"></div>
+                                <div class="col-md-6 col-sm-12" style="padding:7px;">
+                                    <input placeholder="Código Postal:" class="form-control">
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -54,10 +56,10 @@
                 <div class="row">
                     <div class="col-md-12" style="padding-top:10px;">
                         <div class="col-md-1"></div>
-                        <div class="col-md-10">
-                            <div class="col-md-4"><a href="welcome.html" class="btn btn-md btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a></div>
-                            <div class="col-md-4"><a href="welcome.html" class="btn btn-md btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a></div>
-                            <div class="col-md-4"><a href="welcome.html" class="btn btn-md btn-google"><i class="fa fa-google-plus" aria-hidden="true"></i>  Google+</a></div>
+                        <div class="col-md-10 col-xs-12">
+                            <div class="col-md-4" style="padding:3px;"><a href="welcome.html" class="btn btn-md btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a></div>
+                            <div class="col-md-4" style="padding:3px;"><a href="welcome.html" class="btn btn-md btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a></div>
+                            <div class="col-md-4" style="padding:3px;"><a href="welcome.html" class="btn btn-md btn-google"><i class="fa fa-google-plus" aria-hidden="true"></i>  Google+</a></div>
                         </div>
                         <div class="col-md-1"></div>
                     </div>

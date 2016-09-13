@@ -3460,7 +3460,7 @@
     }
 
 	.text-white {
-		color:white;
+		color:white !important;
 	}
 
     .scrolly {

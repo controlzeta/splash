@@ -4,20 +4,20 @@
     ViewBag.Title = "Iniciar sesión";
 }
 <div class="container">
-    <div class="row" style="padding-top:5%">
+    <div class="row" style="padding-top:20px;">
         <h1>@ViewBag.Title.</h1>
     </div>
 
-    <div class="row">
+    <div class="row" style="padding-top:20px;">
         <h2>Utilice una cuenta local para iniciar sesión.</h2>
-        <div class="col-md-6">
+        <div class="col-md-6" style="padding-top:20px;">
             @using (Html.BeginForm(new { ReturnUrl = ViewBag.ReturnUrl }))
             {
                 @Html.AntiForgeryToken()
                 @Html.ValidationSummary(true)
 
 
-                <h2>Formulario de inicio de sesión</h2>
+                <h2>Inicio de sesión</h2>
                 <div class="row">
                     <div>
                         @Html.LabelFor(m => m.UserName)
@@ -38,15 +38,15 @@
                     <input type="submit" value="Iniciar sesión" />
                 </div>
                 <div class="row">
-                    <p>
-                        @Html.ActionLink("Regístrese", "Register", new { @class = "btn btn-primary" }) si no tiene ninguna cuenta.
+                    <p class="text-white">
+                        @Html.ActionLink("Regístrese", "Register", new { @class = "btn btn-primary text-white" }) si no tiene ninguna cuenta.
                     </p>
                 </div>
 
             }
         </div>
 
-        <div class="col-md-6" id="">
+        <div class="col-md-6" id="" style="padding-top:20px;">
             <h2>Usar otro servicio para iniciar sesión.</h2>
             @Html.Action("ExternalLoginsList", new { ReturnUrl = ViewBag.ReturnUrl })
         </div>

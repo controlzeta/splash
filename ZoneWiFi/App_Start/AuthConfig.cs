@@ -18,9 +18,9 @@ namespace ZoneWiFi
             //    clientId: "",
             //    clientSecret: "");
 
-            //OAuthWebSecurity.RegisterTwitterClient(
-            //    consumerKey: "",
-            //    consumerSecret: "");
+            OAuthWebSecurity.RegisterTwitterClient(
+                consumerKey: "BLlUgeDdvnohPqdp36rGgNceQ",
+                consumerSecret: "ZjCBvErFT5WHWUbfZPYz0gpmTv9BzqZ2wohB96Qgkuw9VGtwr6");
 
             OAuthWebSecurity.RegisterFacebookClient(
                 appId: "273036986422600",

@@ -214,10 +214,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:19</publishTime>
     </File>
     <File Include="bin/ZoneWiFi.dll">
-      <publishTime>09/13/2016 13:00:20</publishTime>
+      <publishTime>09/13/2016 18:13:31</publishTime>
     </File>
     <File Include="bin/ZoneWiFi.pdb">
-      <publishTime>09/13/2016 13:00:20</publishTime>
+      <publishTime>09/13/2016 18:13:31</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -253,7 +253,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Content/main.css">
-      <publishTime>09/13/2016 13:14:49</publishTime>
+      <publishTime>09/13/2016 17:44:09</publishTime>
     </File>
     <File Include="Content/owl.carousel.css">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -265,7 +265,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>09/13/2016 13:15:42</publishTime>
+      <publishTime>09/13/2016 15:54:37</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -592,19 +592,19 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Views/Account/Login.cshtml">
-      <publishTime>09/12/2016 19:28:18</publishTime>
+      <publishTime>09/13/2016 17:23:01</publishTime>
     </File>
     <File Include="Views/Account/Manage.cshtml">
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Views/Account/Register.cshtml">
-      <publishTime>09/12/2016 19:28:18</publishTime>
+      <publishTime>09/13/2016 15:45:43</publishTime>
     </File>
     <File Include="Views/Account/_ChangePasswordPartial.cshtml">
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Views/Account/_ExternalLoginsListPartial.cshtml">
-      <publishTime>09/12/2016 19:28:18</publishTime>
+      <publishTime>09/13/2016 17:24:48</publishTime>
     </File>
     <File Include="Views/Account/_RemoveExternalLoginsPartial.cshtml">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -619,19 +619,22 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/13/2016 13:07:50</publishTime>
+      <publishTime>09/13/2016 17:02:22</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/13/2016 13:13:59</publishTime>
+      <publishTime>09/13/2016 17:51:32</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
-      <publishTime>09/12/2016 19:28:18</publishTime>
+      <publishTime>09/13/2016 18:12:57</publishTime>
     </File>
     <File Include="Views/Shared/_Modal.cshtml">
-      <publishTime>09/13/2016 12:43:33</publishTime>
+      <publishTime>09/13/2016 16:52:25</publishTime>
+    </File>
+    <File Include="Views/Shared/_Promociones.cshtml">
+      <publishTime>09/13/2016 16:55:11</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -640,7 +643,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:19</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/13/2016 13:00:21</publishTime>
+      <publishTime>09/13/2016 18:13:32</publishTime>
     </File>
   </ItemGroup>
 </Project>

@@ -6,7 +6,7 @@
 
 body {
     background-color: #fff;
-    border-top: solid 10px #000;
+    border-top: solid 10px #fff;
     color: #333;
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
@@ -60,7 +60,7 @@ mark {
 
 h1, h2, h3,
 h4, h5, h6 {
-    color: #000;
+    color: #fff;
     margin-bottom: 0;
     padding-bottom: 0;
 }
@@ -451,14 +451,14 @@ textarea {
     input[type="submit"],
     input[type="button"],
     button {
-        background-color: #d3dce0;
+        /*background-color: #d3dce0;
         border: 1px solid #787878;
         cursor: pointer;
         font-size: 1.2em;
         font-weight: 600;
         padding: 7px;
         margin-right: 8px;
-        width: auto;
+        width: auto;*/
     }
 
     td input[type="submit"],
@@ -553,7 +553,7 @@ th {
     }
 
     th a:hover {
-        color: #000;
+        color: #fff;
     }
 
     th.asc a, th.desc a {
