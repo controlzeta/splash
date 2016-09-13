@@ -214,10 +214,10 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:19</publishTime>
     </File>
     <File Include="bin/ZoneWiFi.dll">
-      <publishTime>09/13/2016 18:13:31</publishTime>
+      <publishTime>09/13/2016 18:32:11</publishTime>
     </File>
     <File Include="bin/ZoneWiFi.pdb">
-      <publishTime>09/13/2016 18:13:31</publishTime>
+      <publishTime>09/13/2016 18:32:11</publishTime>
     </File>
     <File Include="Content/bootstrap-theme.css">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -253,7 +253,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Content/main.css">
-      <publishTime>09/13/2016 17:44:09</publishTime>
+      <publishTime>09/13/2016 18:30:06</publishTime>
     </File>
     <File Include="Content/owl.carousel.css">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -265,7 +265,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Content/Site.css">
-      <publishTime>09/13/2016 15:54:37</publishTime>
+      <publishTime>09/13/2016 18:31:41</publishTime>
     </File>
     <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
       <publishTime>09/12/2016 19:28:18</publishTime>
@@ -625,7 +625,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:18</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>09/13/2016 17:51:32</publishTime>
+      <publishTime>09/13/2016 18:23:49</publishTime>
     </File>
     <File Include="Views/Shared/_LoginPartial.cshtml">
       <publishTime>09/13/2016 18:12:57</publishTime>
@@ -643,7 +643,7 @@ editando este archivo MSBuild. Para conocer más acerca de esto, visite http://g
       <publishTime>09/12/2016 19:28:19</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>09/13/2016 18:13:32</publishTime>
+      <publishTime>09/13/2016 18:32:12</publishTime>
     </File>
   </ItemGroup>
 </Project>
