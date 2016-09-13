@@ -3471,7 +3471,7 @@
 
 	/* hide input */
 input.radio:empty {
-	margin-left: -999px;
+	margin-left: -1999px;
 }
 
 /* style label */
