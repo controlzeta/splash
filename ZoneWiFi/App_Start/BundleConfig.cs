@@ -9,7 +9,13 @@ namespace ZoneWiFi
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/Scripts/jquery-{version}.js"));
+                        "~/Scripts/jquery-{version}.js",
+                        "~/Scripts/jquery.scrolly.min.js",
+                        "~/Scripts/utils.js",
+                        "~/Scripts/skel.min.js",
+                        "~/Scripts/owl.carousel.js",
+                        "~/Scripts/bootstrap.js",
+                        "~/Scripts/main.js"));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryui").Include(
                         "~/Scripts/jquery-ui-{version}.js"));
@@ -25,6 +31,10 @@ namespace ZoneWiFi
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                         "~/Content/bootstrap.css",
+                        "~/Content/owl.carousel.css",
+                        "~/Content/owl.theme.css",
+                        "~/Content/owl.transitions.css",
+                        "~/Content/main.css",
                         "~/Content/site.css"));
 
             bundles.Add(new StyleBundle("~/Content/themes/base/css").Include(
