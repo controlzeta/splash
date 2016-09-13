@@ -13,101 +13,7 @@
     </head>
     <body>
         <div class="row-fluid">
-            @*<section>*@
-                <div class="row">
-                    <div class="row" style="padding-top:1%;">
-                        <div id="ads" class="col-md-6 hidden-sm hidden-xs">  
-                            <div class="col-md-12" style="padding:10%, 10%;">
-                                <div id="owl-demo" class="owl-carousel owl-theme">
-                                    <div class="item"><img src="images/slider001.jpg" width="100%" alt="The Last of us"></div>
-                                    <div class="item"><img src="images/slider002.jpg" width="100%" alt="GTA V"></div>
-                                    <div class="item"><img src="images/slider003.jpg" width="100%" alt="Mirror Edge"></div>
-                                </div>
-                            </div>
-                            <div class="col-md-12" style="padding-top:5%;">
-                                <div class="col-md-6">
-                                    <div id="owl-demo2" class="owl-carousel owl-theme">
-                                        <div class="item"><img src="images/slider004.jpg" width="100%" alt="The Last of us"></div>
-                                        <div class="item"><img src="images/slider005.jpg" width="100%" alt="GTA V"></div>
-                                        <div class="item"><img src="images/slider006.jpg" width="100%" alt="Mirror Edge"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div id="owl-demo3" class="owl-carousel owl-theme">
-                                        <div class="item"><img src="images/slider007.jpg" width="100%" alt="The Last of us"></div>
-                                        <div class="item"><img src="images/slider008.jpg" width="100%" alt="GTA V"></div>
-                                        <div class="item"><img src="images/slider009.jpg" width="100%" alt="Mirror Edge"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="login" class="col-md-6">
-                            <div class="inner">
-                                <div class="col-md-2"></div>
-                                <div class="col-md-8">
-                                    <span class="icon major fa-wifi"></span>
-                                    <h1>
-                                        Bienvenido a <strong>Walmart</strong>, Te invitamos
-                                        conectarte gratuitamente a nuestro <a href="#">WIFI</a>.
-                                    </h1>
-                                    <img src="images/att.png" style="width:30%; padding-top:10px;">
-                                    <div class="row">
-                                        <div class="col-md-12" style="padding:10px;"><input placeholder="Escribe tu nombre:" class="form-control"></div>
-                                        <div class="col-md-12" style="padding-bottom:10px;">
-                                            <div class="col-md-6">
-                                                <input type="radio" name="radio" id="radio1" class="radio" />
-                                                <label for="radio1">Masculino</label>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <input type="radio" name="radio" id="radio2" class="radio" />
-                                                <label for="radio2">Femenino</label>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-12">
-                                            <div class="row">
-                                                <div class="col-md-6 col-sm-12" style="padding:10px;">
-                                                    <select id="edad" class="form-control">
-                                                        <option value="0">Edad</option>
-                                                        <option value="13">13</option>
-                                                        <option value="14">14</option>
-                                                        <option value="15">15</option>
-                                                        <option value="16">16</option>
-                                                        <option value="17">17</option>
-                                                        <option value="18">18</option>
-                                                        <option value="19">19</option>
-                                                        <option value="20">20</option>
-                                                        <option value="21">21</option>
-                                                    </select>
-                                                </div>
-                                                <div class="col-md-6 col-sm-12" style="padding:12px;"><input placeholder="Código Postal:" class="form-control"></div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-2"></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-12" style="padding-top:10px;">
-                                        <div class="col-md-1"></div>
-                                        <div class="col-md-10">
-                                            <div class="col-md-4"><a href="welcome.html" class="btn btn-md btn-facebook"><i class="fa fa-facebook" aria-hidden="true"></i>  Facebook</a></div>
-                                            <div class="col-md-4"><a href="welcome.html" class="btn btn-md btn-twitter"><i class="fa fa-twitter" aria-hidden="true"></i>  Twitter</a></div>
-                                            <div class="col-md-4"><a href="welcome.html" class="btn btn-md btn-google"><i class="fa fa-google-plus" aria-hidden="true"></i>  Google+</a></div>
-                                        </div>
-                                        <div class="col-md-1"></div>
-                                    </div>
-                                </div>
-                                <div class="col-md-12" style="padding:10px;">
-                                    <a data-toggle="modal" data-target="#myModal">Ver políticas de Privacidad</a>
-                                </div>
-                                <ul class="actions">
-                                    <li><a href="welcome.html" class="button scrolly">Registrate</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            @*</section>*@
+            @RenderBody()
         </div>
         <div class="content-wrapper">
             <div class="text-center">
@@ -133,17 +39,15 @@
                 </div>
             </div>*@
         @*</header>*@
-        <div>
+        @*<div>
             
             <section class="content-wrapper main-content clear-fix">
-                @RenderBody()
+                
             </section>
-        </div>
-        <footer>
+        </div>*@
+        @*<footer>
 
-        </footer>
-
-        @Html.Partial("~/Views/Shared/_Modal.cshtml")
+        </footer>*@
         @RenderSection("scripts", required: false)
     </body>
 </html>
